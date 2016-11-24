@@ -1,3 +1,10 @@
+# Grunt
+/node_modules/
+
+# Sass
+.sass-cache/
+
+# OS X metadata
 .DS_Store
 
 # Logs
