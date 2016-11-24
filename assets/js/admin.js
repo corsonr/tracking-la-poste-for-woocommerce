@@ -5,7 +5,7 @@ jQuery( function( $ ) {
 	
 		// init Class
 		init: function() {
-			$( '#tracking-la-poste-for-woocommerce' )
+			$( '#la-poste-tracking-for-woocommerce' )
 				.on( 'click', 'a.delete-tracking', this.delete_tracking )
 				.on( 'click', 'button.button-show-form', this.show_form )
 				.on( 'click', 'button.button-save-form', this.save_form );
@@ -39,8 +39,8 @@ jQuery( function( $ ) {
 				$( '#la-poste-tracking-form' ).unblock();
 				if ( response != '-1' ) {
 					$( '#la-poste-tracking-form' ).hide();
-					$( '#tracking-la-poste-for-woocommerce #tracking-items' ).append( response );
-					$( '#tracking-la-poste-for-woocommerce button.button-show-form' ).show();
+					$( '#la-poste-tracking-for-woocommerce #tracking-items' ).append( response );
+					$( '#la-poste-tracking-for-woocommerce button.button-show-form' ).show();
 					$( 'input#tracking_number' ).val( '' );
 					$( 'input#date_shipped' ).val( '' );
 				}
@@ -52,7 +52,7 @@ jQuery( function( $ ) {
 		// Show the new tracking item form
 		show_form: function () {
 			$( '#la-poste-tracking-form' ).show();
-			$( '#tracking-la-poste-for-woocommerce button.button-show-form' ).hide();
+			$( '#la-poste-tracking-for-woocommerce button.button-show-form' ).hide();
 		},
 		
 		// Delete a tracking item

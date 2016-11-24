@@ -113,7 +113,7 @@ class WC_La_Poste_Tracking_Actions {
 	 * @access public
 	 */
 	public function add_meta_box() {
-		add_meta_box( 'tracking-la-poste-for-woocommerce', __( 'La Poste Tracking', 'tracking-la-poste-for-woocommerce' ), array( $this, 'meta_box' ), 'shop_order', 'side', 'high' );
+		add_meta_box( 'la-poste-tracking-for-woocommerce', __( 'La Poste Tracking', 'tracking-la-poste-for-woocommerce' ), array( $this, 'meta_box' ), 'shop_order', 'side', 'high' );
 	}
 
 	/**
