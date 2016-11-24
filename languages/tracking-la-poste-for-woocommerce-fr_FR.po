@@ -1,0 +1,139 @@
+# Copyright (C) 2016 Remi Corson
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce La Poste Tracking\n"
+"Report-Msgid-Bugs-To: https://remicorson.com\n"
+"POT-Creation-Date: 2016-11-19 15:59+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-11-19 22:17+0100\n"
+"Language-Team: Wp Trads <contact@wolforg.eu>\n"
+"X-Generator: Poedit 1.8.11\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c;_nc:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"Last-Translator: Wp Trads <contact@wolforg.eu>\n"
+"Language: fr_FR\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/class-wc-la-poste-tracking.php:54
+#: includes/class-wc-la-poste-tracking.php:112
+#: includes/compats/class-wc-la-poste-tracking-pip-compat.php:40
+msgid "La Poste Tracking"
+msgstr "Suivi La Poste"
+
+#: includes/class-wc-la-poste-tracking.php:125
+msgid "Code"
+msgstr "Code"
+
+#: includes/class-wc-la-poste-tracking.php:127
+#: templates/email/tracking-info.php:24 templates/email/tracking-info.php:39
+#: templates/myaccount/view-order.php:24 templates/myaccount/view-order.php:38
+msgid "Status"
+msgstr "Statut"
+
+#: includes/class-wc-la-poste-tracking.php:129
+msgid "Type"
+msgstr "Type"
+
+#: includes/class-wc-la-poste-tracking.php:131
+#: templates/email/tracking-info.php:23 templates/email/tracking-info.php:36
+#: templates/myaccount/view-order.php:23 templates/myaccount/view-order.php:35
+msgid "Date"
+msgstr "Date"
+
+#: includes/class-wc-la-poste-tracking.php:133
+msgid "Message"
+msgstr "Message"
+
+#: includes/class-wc-la-poste-tracking.php:136
+#: templates/pip/tracking-info.php:28
+msgid "Shipped on %s"
+msgstr "Expédié le %s"
+
+#: includes/class-wc-la-poste-tracking.php:138
+#: includes/class-wc-la-poste-tracking.php:227
+#: templates/pip/tracking-info.php:23
+msgid "Click here to track your shipment"
+msgstr "Cliquez ici pour suivre votre expédition"
+
+#: includes/class-wc-la-poste-tracking.php:138
+#: templates/email/tracking-info.php:43 templates/myaccount/view-order.php:42
+#: templates/pip/tracking-info.php:23
+msgid "Track"
+msgstr "Suivi"
+
+#: includes/class-wc-la-poste-tracking.php:140
+msgid "Delete"
+msgstr "Supprimer"
+
+#: includes/class-wc-la-poste-tracking.php:167
+msgid "Add Tracking Number"
+msgstr "Ajouter un numéro de suivi"
+
+#: includes/class-wc-la-poste-tracking.php:183
+msgid "La Poste Tracking Number:"
+msgstr "Numéro de suivi La Poste :"
+
+#: includes/class-wc-la-poste-tracking.php:191
+msgid "Date shipped:"
+msgstr "Date d’expédition :"
+
+#: includes/class-wc-la-poste-tracking.php:192
+#: includes/class-wc-la-poste-tracking.php:195
+msgid "Y-m-d"
+msgstr "d/m/Y"
+
+#: includes/class-wc-la-poste-tracking.php:224
+msgid "Save Tracking Number"
+msgstr "Enregistrer le numéro de suivi"
+
+#: includes/class-wc-la-poste-tracking.php:227
+msgid "Preview:"
+msgstr "Aperçu :"
+
+#: includes/compats/class-wc-la-poste-tracking-pip-compat.php:45
+msgid "La Poste tracking"
+msgstr "Suivi La Poste"
+
+#: includes/compats/class-wc-la-poste-tracking-pip-compat.php:46
+msgid "Select which document types should display shipment tracking."
+msgstr "Sélectionnez quels types de documents doivent afficher le suivi d’expédition."
+
+#: templates/email/plain/tracking-info.php:17
+msgid "TRACKING INFORMATION"
+msgstr "INFORMATION DE SUIVI"
+
+#: templates/email/tracking-info.php:16 templates/myaccount/view-order.php:17
+#: templates/pip/tracking-info.php:17 templates/pip/tracking-info.php:21
+msgid "Tracking Information"
+msgstr "Information de suivi"
+
+#: templates/email/tracking-info.php:22 templates/email/tracking-info.php:33
+#: templates/myaccount/view-order.php:22 templates/myaccount/view-order.php:32
+msgid "Tracking Number"
+msgstr "Numéro de suivi"
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce La Poste Tracking"
+msgstr "WooCommerce La Poste Tracking"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.remicorson.com"
+msgstr "http://www.remicorson.com"
+
+#. Description of the plugin/theme
+msgid "Add tracking number to order package and update status dynamically."
+msgstr "Ajout de numéro de suivi pour commander un colis et mettre à jour le statut dynamiquement."
+
+#. Author of the plugin/theme
+msgid "Remi Corson"
+msgstr "Remi Corson"
+
+#. Author URI of the plugin/theme
+msgid "http://www.remicorson.com/"
+msgstr "http://www.remicorson.com/"
