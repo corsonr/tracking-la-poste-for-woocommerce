@@ -423,13 +423,18 @@ class WC_La_Poste_Tracking_Actions {
 			
 			foreach( $shipments as $shipment ) {
 				
-				// Check last status only
+				// Check last status & last message only
 				if ( $shipment === end( $shipments )) {
-					$current_shipment_status = $shipment[ 'tracking_status' ];
+					
 					$new_shipment_data = $this->get_shipment_tracking( $shipment[ 'tracking_number' ] );
+					
+					$current_shipment_status = $shipment[ 'tracking_status' ];
 					$new_shipment_status = $new_shipment_data->status;
 					
-					if( $new_shipment_status == $current_shipment_status ) {
+					$current_shipment_message = $shipment[ 'tracking_message' ];
+					$new_shipment_message = $new_shipment_data->message;
+					
+					if( $new_shipment_status == $current_shipment_status || $new_shipment_message == $current_shipment_message ) {
 						return;
 					} else {
 						
