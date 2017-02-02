@@ -9,7 +9,7 @@
 	Text Domain: tracking-la-poste-for-woocommerce
 	Domain Path: /languages
 
-	Copyright: © 2016 Remi Corson.
+	Copyright: © 2017 Remi Corson.
 	License: GNU General Public License v3.0
 	License URI: http://www.gnu.org/licenses/gpl-3.0.html
 	Shipment tracking URL: http://www.colissimo.fr/portail_colissimo/suivre.do?language=fr_FR&colispart=xxx
